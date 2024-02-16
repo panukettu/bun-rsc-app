@@ -23,14 +23,6 @@
 - Use `Link` to navigate, it will perform a hard navigation if `href.startsWith('/')` - otherwise it will stream the navigation.
 - If you want to skip the client side cache you can pass `revalidate={true}` into a streaming navigation.
 
-## Getting Started
-
-To get started with this template, simply paste this command into your terminal:
-
-```bash
-bunx --bun @pkxp/bun-rsc
-```
-
 ## Development
 
 To start the development server run:
