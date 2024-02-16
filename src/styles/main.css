@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Roboto:wght@400;500&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import './components.css';
+@import './base.css';
+@import './pages/pages.css';
+@import './utilities.css';
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */

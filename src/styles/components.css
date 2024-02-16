@@ -1,0 +1,74 @@
+@layer components {
+	.nav {
+		@apply flex flex-col font-mono justify-center h-40 w-full;
+		.items {
+			@apply flex flex-row gap-6 font-semibold my-2;
+		}
+	}
+
+	.search-params {
+		@apply flex justify-between border-t text-xs border-white;
+	}
+
+	.sub-header {
+		@apply flex flex-row gap-10;
+		.section {
+			@apply flex flex-col gap-4;
+		}
+	}
+
+	.item {
+		@apply flex flex-row w-60 h-12 text-xs font-medium text-white;
+
+		.abbr {
+			@apply flex rounded-l-md justify-center place-items-center w-10 text-center;
+		}
+
+		.content {
+			@apply flex flex-col justify-center px-2 grow rounded-r-md border-b border-r border-t border-gray-900 bg-neutral-900;
+		}
+	}
+
+	.items {
+		@apply flex flex-wrap gap-4 items-center;
+	}
+
+	.btn {
+		@apply p-2 flex items-center justify-center rounded-md text-xs font-semibold shadow-sm;
+		@apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600;
+	}
+
+	.counter {
+		@apply bg-neutral-900 rounded-md flex flex-col justify-center items-center w-32 h-28 cursor-pointer duration-100 transition-colors select-none;
+	}
+
+	.server-state {
+		@apply bg-neutral-900 shadow sm:rounded-lg p-4 flex flex-col items-start text-sm w-60;
+
+		.title {
+			@apply text-base font-semibold leading-6 mb-1;
+		}
+		.value {
+			@apply mt-2 max-w-xl text-sm text-gray-500;
+		}
+
+		.actions {
+			@apply mt-5 flex flex-col justify-center items-center gap-2;
+
+			.btns {
+				@apply flex flex-row justify-between w-full;
+			}
+		}
+
+		* .input {
+			@apply w-full rounded-md border-0 p-1.5 text-gray-900 ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 text-xs leading-6;
+		}
+	}
+}
+
+.kek {
+	background-color: red;
+	span {
+		color: blue;
+	}
+}

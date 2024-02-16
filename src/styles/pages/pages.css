@@ -1,0 +1,13 @@
+@layer components {
+	.home-content {
+		@apply font-sans max-w-6xl mx-auto border-white bg-neutral-950;
+	}
+
+	.standalone-content {
+		@apply flex flex-col gap-4 flex-1 font-sans max-w-6xl;
+	}
+
+	.other-header {
+		@apply flex flex-col font-mono justify-center h-40 w-full;
+	}
+}

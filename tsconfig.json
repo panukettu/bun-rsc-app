@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"lib": ["ESNext"],
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleDetection": "force",
+		"allowJs": true,
+		"jsx": "react-jsx",
+
+		/* Bundler mode */
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+		"resolvePackageJsonExports": true,
+		"verbatimModuleSyntax": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+
+		"baseUrl": "./",
+		"rootDir": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		},
+
+		/* Linting */
+		"skipLibCheck": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strict": true,
+		"noFallthroughCasesInSwitch": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"types": ["bun", "react/experimental", "@pkxp/bun-rsc/types"]
+	},
+	"include": ["src", "out", "@pkxp/bun-rsc/types", "@pkxp/bun-rsc/dist/extensions.d.ts"]
+}

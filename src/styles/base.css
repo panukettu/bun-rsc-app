@@ -1,0 +1,11 @@
+@layer base {
+	h1 {
+		@apply text-2xl;
+	}
+	h2 {
+		@apply text-xl;
+	}
+	body {
+		@apply flex flex-col px-96 gap-10 w-screen text-zinc-200 bg-neutral-950;
+	}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@pkxp/bun-rsc-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bunx @pkxp/bun-rsc",
+    "prod": "NODE_ENV=production bunx @pkxp/bun-rsc"
+  },
+  "dependencies": {
+    "@pkxp/bun-rsc": "0.1.20",
+    "@tanstack/react-query": "5.20.1",
+    "clsx": "^2.1.0",
+    "hono": "3.12.8",
+    "react": "npm:@pkxp/react@^0.0.7",
+    "react-dom": "npm:@pkxp/react-dom@^0.1.1",
+    "react-server-dom": "npm:@pkxp/react-server-dom@^0.1.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.5.3",
+    "@types/bun": "^1.0.5",
+    "@types/react": "^18.2.55",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  },
+  "overrides": {
+    "react@^18.0.0": "npm:@pkxp/react@latest"
+  },
+  "trustedDependencies": [
+    "postcss-cli"
+  ]
+}
