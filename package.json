@@ -7,7 +7,7 @@
     "prod": "NODE_ENV=production bunx @pkxp/bun-rsc"
   },
   "dependencies": {
-    "@pkxp/bun-rsc": "0.1.22",
+    "@pkxp/bun-rsc": "^0.1.24",
     "@tanstack/react-query": "5.20.1",
     "clsx": "^2.1.0",
     "hono": "3.12.8",

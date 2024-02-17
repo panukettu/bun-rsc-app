@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@pkxp/bun-rsc':
-    specifier: 0.1.22
-    version: 0.1.22(@pkxp/react-dom@0.1.1)(@pkxp/react-scheduler@0.0.7)(@pkxp/react-server-dom@0.1.1)(@pkxp/react@0.0.7)(autoprefixer@10.4.17)(cssnano@6.0.3)(globby@14.0.1)(hono@3.12.8)(postcss-cli@11.0.0)(postcss-import@16.0.1)(postcss@8.4.35)(tailwindcss@3.4.1)(tsup@8.0.2)
+    specifier: ^0.1.24
+    version: 0.1.24(@pkxp/react-dom@0.1.1)(@pkxp/react-scheduler@0.0.7)(@pkxp/react-server-dom@0.1.1)(@pkxp/react@0.0.7)(autoprefixer@10.4.17)(cssnano@6.0.3)(globby@14.0.1)(hono@3.12.8)(postcss-cli@11.0.0)(postcss-import@16.0.1)(postcss@8.4.35)(tailwindcss@3.4.1)(tsup@8.0.2)
   '@tanstack/react-query':
     specifier: 5.20.1
     version: 5.20.1(@pkxp/react@0.0.7)
@@ -397,8 +397,8 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@pkxp/bun-rsc@0.1.22(@pkxp/react-dom@0.1.1)(@pkxp/react-scheduler@0.0.7)(@pkxp/react-server-dom@0.1.1)(@pkxp/react@0.0.7)(autoprefixer@10.4.17)(cssnano@6.0.3)(globby@14.0.1)(hono@3.12.8)(postcss-cli@11.0.0)(postcss-import@16.0.1)(postcss@8.4.35)(tailwindcss@3.4.1)(tsup@8.0.2):
-    resolution: {integrity: sha512-rZgk4MpGfpl/n2MzTxW6PY41KSvA44WueNQEloP/Ngh1F6O1TqjHJko0UQfBPouCW12f3tbb/W/xHiA7YpwCbg==}
+  /@pkxp/bun-rsc@0.1.24(@pkxp/react-dom@0.1.1)(@pkxp/react-scheduler@0.0.7)(@pkxp/react-server-dom@0.1.1)(@pkxp/react@0.0.7)(autoprefixer@10.4.17)(cssnano@6.0.3)(globby@14.0.1)(hono@3.12.8)(postcss-cli@11.0.0)(postcss-import@16.0.1)(postcss@8.4.35)(tailwindcss@3.4.1)(tsup@8.0.2):
+    resolution: {integrity: sha512-E25hOJ8criKLjl1S/dnzuguJrGhe0mb8CDLIC42LR6iWpEcyB7vcTcitHY+k1R0ZgLlgQY54IGfcRftznKyd6Q==}
     hasBin: true
     peerDependencies:
       '@pkxp/react-scheduler': 0.0.7
