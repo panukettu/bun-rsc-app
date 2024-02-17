@@ -18,9 +18,13 @@ export const config = {
 			return ctx.text("Not Found", 404)
 		},
 		port: 3000,
+		hostname: "localhost",
 		cors: {
-			"/other": {
-				origin: "http://nope.com",
+			"*": {
+				origin: "*",
+			},
+			"/api": {
+				origin: "http://rsc.localhost",
 			},
 		},
 	},

@@ -3,7 +3,9 @@ import { hc } from "hono/client"
 import { cache } from "react/server"
 
 export const api = hc<App>(
-	`http://localhost:${process.env.APP_PUBLIC_PORT}/api`,
+	typeof window === "undefined"
+		? `http://localhost:${process.env.APP_PUBLIC_PORT}/api`
+		: "/api",
 )
 
 export type ItemResult = Awaited<ReturnType<typeof fetchItem>>
